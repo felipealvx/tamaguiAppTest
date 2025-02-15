@@ -26,11 +26,6 @@ export default function TabLayout() {
         options={{
           title: 'Tab One',
           tabBarIcon: ({ color }) => <Atom color={color as any} />,
-          headerRight: () => (
-            <Button>
-              Hellow
-            </Button>
-          ),
         }}
       />
       <Tabs.Screen
